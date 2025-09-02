@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All In One - Writing Notes</title>
+    <link rel="stylesheet" href="porfolio.css">
+    <style>
+        body {
+            background-image: url(Writing.jpg);
+            background-size: cover;
+            background-repeat: no-repeat; 
+            background-position: center; 
+            height: 100vh; 
+            margin: 0; 
+        }
+        nav {
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+        section {
+            padding: 20px;
+            margin: 20px; 
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 5px; 
+        }
+        textarea {
+            width: 100%;
+            height: 200px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            resize: none;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#submit">Submit</a>
+        <a href="#about">About More</a>
+        <a href="#login">Log In</a>
+        <a href="#write">Write Here</a>
+    </nav>
+
+    <section id="about">
+        <h2>WRITE YOUR NOTES FREE</h2>
+        <p>there is nothing about to say</p>
+    </section>
+
+    <section id="login">
+        <h2>Log In</h2>
+        <form>
+            <input type="text" placeholder="Username or Email" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Log In</button>
+        </form>
+    </section>
+
+    <section id="submit">
+        <h2>Submit</h2>
+        <form>
+            <input type="text" placeholder="thoughts" required>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="write">
+        <h2>Write Section</h2>
+        <form>
+            <textarea placeholder="Write your notes here..." required></textarea>
+            <button type="submit">Save Notes</button>
+        </form>
+    </section>
+</body>
+</html>
